@@ -1,4 +1,3 @@
-#include <ctime>
 #include "linked_list.h"
 
 class Example
@@ -23,9 +22,7 @@ class Example
 
 int main()
 {
-	srand(time(nullptr));
 	system("chcp 1251 & cls");
-
 	int size = 21;
 	Example **arr = new Example*[size];
 

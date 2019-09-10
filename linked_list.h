@@ -2,6 +2,7 @@
 #define LINKED_LIST_H
 
 #include <iostream>
+using namespace std;	//need std:: everywhere
 
 template <class T>
 class Node {
